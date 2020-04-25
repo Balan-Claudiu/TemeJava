@@ -17,6 +17,9 @@ public class Lab2 {
     int impartire = division(55,11);
         System.out.println(impartire);
 
+    int media = average(10, 15, 20 ,3);
+        System.out.println(media);
+
     }
     public static void printMyName(){
         System.out.println("Hello \n Claudiu");
@@ -35,11 +38,17 @@ public class Lab2 {
         return multiplication;
 
     }
-    public static int division( int x, int y){
+    public static int division(int x, int y){
         int division = x / y;
         return division;
     }
-   }
+
+    public static int average(int x, int y , int z, int a){
+        int average = (x+y+z)/a;
+        return average;
+    }
+
+    }
 
 
 
