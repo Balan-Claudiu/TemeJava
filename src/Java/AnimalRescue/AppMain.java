@@ -15,5 +15,8 @@ public class AppMain {
 
         Doctor mySave = new Doctor();
         System.out.println(mySave.specialization);
+
+        Activity myRecreation = new Activity();
+        System.out.println(myRecreation.name);
     }
 }
