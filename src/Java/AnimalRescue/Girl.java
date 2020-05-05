@@ -15,6 +15,6 @@ public class Girl {
         return bani;
     }
     public void setBani(int bani){
-        this.bani = bani
+        this.bani = bani;
     }
 }

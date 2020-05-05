@@ -35,7 +35,10 @@ public class Lab3 {
         int age = 15;
         System.out.println(op.isEligibleToVote(age));
 
-
+        int c = 10;
+        int d = 20;
+        int e = 30;
+        System.out.println(op.maiMare(c, d, e));
 
     }
 }

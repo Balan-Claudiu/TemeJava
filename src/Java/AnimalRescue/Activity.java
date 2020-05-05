@@ -1,6 +1,12 @@
 package Java.AnimalRescue;
 
 public class Activity {
-    public String name = "playWithBall";
+    private String name = "playWithBall";
 
+    public String getName{
+        return name;
+    }
+    public void setName(String name){
+        this.name = name;
+    }
 }

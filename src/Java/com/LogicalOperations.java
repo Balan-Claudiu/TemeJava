@@ -82,7 +82,16 @@ public class LogicalOperations {
         }
     }
 
+    public int maiMare(int c, int d, int e){
+        if (c > d && c > e){
+            return c;
+        }else if (d > c && d> e){
+            return d;
+        }else {
+            return e;
+        }
 
+    }
 
 }
 
