@@ -3,7 +3,7 @@ package Java.AnimalRescue;
 public class Activity {
     private String name = "playWithBall";
 
-    public String getName{
+    public String getName() {
         return name;
     }
     public void setName(String name){
