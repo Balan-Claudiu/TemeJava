@@ -2,7 +2,20 @@ package Java.AnimalRescue;
 
 public class Doctor {
 
-    public String name = "Andrei";
-    public String specialization = "vet";
+    private String name = "Andrei";
+    private String specialization = "vet";
 
+    public String getName(){
+        return name;
+    }
+    public void setName(String name){
+        this.name = name;
+    }
+
+    public String getSpecialization(){
+        return specialization;
+    }
+    public void setSpecialization(String specialization){
+        this.specialization = specialization;
+    }
 }
