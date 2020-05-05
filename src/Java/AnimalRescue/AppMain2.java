@@ -50,6 +50,7 @@ public class AppMain2 {
         System.out.println(andrei.getSpecialization());
 
         Activity playWithBall = new Activity();
+
         playWithBall.setName("PlayWithBall");
 
         System.out.println(playWithBall.getName());
