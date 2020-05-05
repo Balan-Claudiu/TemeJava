@@ -42,21 +42,21 @@ public class Lab2 {
         System.out.println("Hello \n Claudiu");
     }
 
-    public static int sum( int x,  int y){
-        int sum = x+y;
+    public static int sum( int first,  int second){
+        int sum = first+second;
         return sum;
 }
-    public static int substraction(int x, int y){
-        int substraction = x-y;
+    public static int substraction(int first, int second){
+        int substraction = first - second;
         return substraction;
     }
-    public static int multiplication(int x, int y){
-        int multiplication = x*y;
+    public static int multiplication(int first, int second){
+        int multiplication = first*second;
         return multiplication;
 
     }
-    public static int division(int x, int y){
-        int division = x / y;
+    public static int division(int first, int second){
+        int division = first / second;
         return division;
     }
 

@@ -6,6 +6,11 @@ public class Main {
         System.out.println("Hello");
         System.out.println("Claudiu");
 
+        LogicalOperations ol = new LogicalOperations();
+        int biggest = ol.getHigherNumber(5, 7);
+        System.out.println("The bigger number is :" + biggest);
+
+
         int x = 5;
         int y = 10;
         System.out.println(x+y);
