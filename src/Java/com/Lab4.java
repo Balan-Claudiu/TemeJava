@@ -32,9 +32,12 @@ public class Lab4 {
  //        int sum = 0;
  //        op.suma(sum);
 
-         int sum = 0;
-         op.media(sum);
+ //        int sum = 0;
+ //        op.media(sum);
 
+
+ //       int number10 = 7;
+ //       op.asterisc(number10);
 
 
 
