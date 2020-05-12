@@ -256,8 +256,7 @@ public class LogicalOperations {
         while (l <= 110) {
             if (l % 11 == 0) {
                 System.out.println(l);
-            }
-            else if (l % 3 == 0 && l % 5 == 0 && l % 7 == 0) {
+            } else if (l % 3 == 0 && l % 5 == 0 && l % 7 == 0) {
                 System.out.print("CozaLozaWoza");
             } else if (l % 5 == 0 && l % 7 == 0) {
                 System.out.print("WozaLoza");
