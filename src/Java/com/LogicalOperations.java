@@ -265,7 +265,7 @@ public class LogicalOperations {
             } else if (l % 3 == 0 && l % 5 == 0) {
                 System.out.print("CozaLoza");
             }  else if (l % 7 == 0) {
-                System.out.print("woza");
+                System.out.print("Woza");
             } else if (l % 5 == 0) {
                 System.out.print("Loza");
             } else if (l % 3 == 0) {
