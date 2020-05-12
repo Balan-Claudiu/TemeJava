@@ -92,6 +92,8 @@ public class LogicalOperations {
         }
 
     }
+//      tema For
+
 
     public void printToHundred(int number) {
         for (int i = number; i <= 100; i++) {
@@ -162,6 +164,117 @@ public class LogicalOperations {
                 System.out.print("*");
             }
             System.out.println();
+        }
+    }
+
+// tema While
+
+    public void panaLaOsuta(int a) {
+        while (a < 100) {
+            a++;
+            System.out.println(a);
+        }
+    }
+
+    public void panaLaMinusOSuta(int b) {
+        while( b > -100){
+            b--;
+            System.out.println(b);
+        }
+    }
+
+    public void deLaPanaLa(int c, int d){
+        while( c < d){
+            c++;
+            System.out.println(c);
+        }
+    }
+
+    public void deLaCelMaiMic(int e, int f){
+        if(e < 25){
+            while( e < f){
+                e++;
+                System.out.println(e);
+            }
+        }else{
+            while(f < e){
+                f++;
+                System.out.println(f);
+            }
+        }
+    }
+
+    public void parOsuta(int g){
+        while( g <= 100){
+            if( g % 2 == 0)
+                System.out.println(g);
+            g++;
+        }
+    }
+
+    public void imparOSuta(int h){
+        while(h <= 100){
+            if( h % 2 != 0)
+                System.out.println(h);
+            h++;
+        }
+    }
+
+    public void intCount(int i, int sum){
+        while( i <= 8899){
+            sum = sum + i;
+            i++;
+        }
+        float intCountAverage = sum / 8789F;
+        System.out.println(sum);
+        System.out.println(intCountAverage);
+
+    }
+
+    public int sumaMediaSapte(int j, int k , int sum){
+        while( j <= k){
+            j++;
+            if( j % 7 == 0 ){
+                sum = sum +j;
+            }
+        }
+        return sum / 14;
+    }
+
+    public void fibonacci(int sum, int x1, int x2){
+        while(sum < 18){
+            int x3 = x2 + x1;
+            System.out.println(x3);
+            x1 = x2;
+            x2 = x3;
+            sum++;
+
+        }
+    }
+
+    public void cozaLozaWoza(int l){
+        while (l <= 110) {
+            if (l % 11 == 0) {
+                System.out.println(l);
+            }
+            else if (l % 3 == 0 && l % 5 == 0 && l % 7 == 0) {
+                System.out.print("CozaLozaWoza");
+            } else if (l % 5 == 0 && l % 7 == 0) {
+                System.out.print("WozaLoza");
+            } else if (l % 3 == 0 && l % 7 == 0) {
+                System.out.print("CozaWoza");
+            } else if (l % 3 == 0 && l % 5 == 0) {
+                System.out.print("CozaLoza");
+            }  else if (l % 7 == 0) {
+                System.out.print("woza");
+            } else if (l % 5 == 0) {
+                System.out.print("Loza");
+            } else if (l % 3 == 0) {
+                System.out.print("Coza");
+            }else{
+                System.out.print(l);
+            }
+            l++;
         }
     }
 
