@@ -7,34 +7,39 @@ public class Food {
     private int amount ;
     private int stock ;
 
-    public String getName(){
+    public String getName() {
         return name;
     }
-    public void setName(String name){
+
+    public void setName(String name) {
         this.name = name;
     }
 
-    public int getPrice(){
+    public int getPrice() {
         return price;
     }
-    public void setPrice(int price){
+
+    public void setPrice(int price) {
         this.price = price;
     }
 
-    public int getAmount(){
+    public int getAmount() {
         return amount;
     }
-    public void setAmount(int amount){
+
+    public void setAmount(int amount) {
         this.amount = amount;
     }
 
-    public int getStock(){
+    public int getStock() {
         return stock;
     }
-    public void setStock(int stock){
+
+    public void setStock(int stock) {
         this.stock = stock;
     }
-
-
 }
+
+
+
 
