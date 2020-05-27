@@ -92,7 +92,7 @@ public class LogicalOperations {
         }
 
     }
-//      tema For
+//      tema For - lab4
 
 
     public void printToHundred(int number) {
@@ -107,49 +107,49 @@ public class LogicalOperations {
         }
     }
 
-    public void fromTo(int number4, int number5){
-        for (int i = number4; i <= number5; i++){
+    public void fromTo(int number4, int number5) {
+        for (int i = number4; i <= number5; i++) {
             System.out.println(i);
         }
     }
 
-    public void maiMareCrescator(int number6, int number7){
-        if(number6 < number7){
-            for ( int i = number6; i <= number7; i++){
+    public void maiMareCrescator(int number6, int number7) {
+        if (number6 < number7) {
+            for (int i = number6; i <= number7; i++) {
                 System.out.println(i);
             }
-        }else{
-            for ( int j = number6; j > number7; j--){
+        } else {
+            for (int j = number6; j > number7; j--) {
                 System.out.println(j);
             }
         }
     }
 
-    public void par(int number8){
-        for( int i = number8; i <= 100; i++){
-            if (i % 2 == 0){
+    public void par(int number8) {
+        for (int i = number8; i <= 100; i++) {
+            if (i % 2 == 0) {
                 System.out.println(i);
             }
         }
     }
 
-    public void impar(int number9){
-        for (int i = number9; i < 100; i++){
-            if (i % 2 != 0){
+    public void impar(int number9) {
+        for (int i = number9; i < 100; i++) {
+            if (i % 2 != 0) {
                 System.out.println(i);
             }
         }
     }
 
-    public void suma(int sum){
-        for (int i = 1; i <= 100; i++){
+    public void suma(int sum) {
+        for (int i = 1; i <= 100; i++) {
             sum = sum + i;
         }
         System.out.println(sum);
     }
 
-    public void media(int sum){
-        for (int i = 1; i <= 100; i++){
+    public void media(int sum) {
+        for (int i = 1; i <= 100; i++) {
             sum = sum + i;
         }
 
@@ -158,7 +158,7 @@ public class LogicalOperations {
         System.out.println(average);
     }
 
-    public void asterisc(int number10){
+    public void asterisc(int number10) {
         for (int i = number10; i >= 1; i--) {
             for (int j = 1; j <= i; j++) {
                 System.out.print("*");
@@ -177,51 +177,51 @@ public class LogicalOperations {
     }
 
     public void panaLaMinusOSuta(int b) {
-        while( b > -100){
+        while (b > -100) {
             b--;
             System.out.println(b);
         }
     }
 
-    public void deLaPanaLa(int c, int d){
-        while( c < d){
+    public void deLaPanaLa(int c, int d) {
+        while (c < d) {
             c++;
             System.out.println(c);
         }
     }
 
-    public void deLaCelMaiMic(int e, int f){
-        if(e < 25){
-            while( e < f){
+    public void deLaCelMaiMic(int e, int f) {
+        if (e < 25) {
+            while (e < f) {
                 e++;
                 System.out.println(e);
             }
-        }else{
-            while(f < e){
+        } else {
+            while (f < e) {
                 f++;
                 System.out.println(f);
             }
         }
     }
 
-    public void parOsuta(int g){
-        while( g <= 100){
-            if( g % 2 == 0)
+    public void parOsuta(int g) {
+        while (g <= 100) {
+            if (g % 2 == 0)
                 System.out.println(g);
             g++;
         }
     }
 
-    public void imparOSuta(int h){
-        while(h <= 100){
-            if( h % 2 != 0)
+    public void imparOSuta(int h) {
+        while (h <= 100) {
+            if (h % 2 != 0)
                 System.out.println(h);
             h++;
         }
     }
 
-    public void intCount(int i, int sum){
-        while( i <= 8899){
+    public void intCount(int i, int sum) {
+        while (i <= 8899) {
             sum = sum + i;
             i++;
         }
@@ -231,18 +231,18 @@ public class LogicalOperations {
 
     }
 
-    public int sumaMediaSapte(int j, int k , int sum){
-        while( j <= k){
+    public int sumaMediaSapte(int j, int k, int sum) {
+        while (j <= k) {
             j++;
-            if( j % 7 == 0 ){
-                sum = sum +j;
+            if (j % 7 == 0) {
+                sum = sum + j;
             }
         }
         return sum / 14;
     }
 
-    public void fibonacci(int sum, int x1, int x2){
-        while(sum < 18){
+    public void fibonacci(int sum, int x1, int x2) {
+        while (sum < 18) {
             int x3 = x2 + x1;
             System.out.println(x3);
             x1 = x2;
@@ -252,7 +252,7 @@ public class LogicalOperations {
         }
     }
 
-    public void cozaLozaWoza(int l){
+    public void cozaLozaWoza(int l) {
         while (l <= 110) {
             if (l % 11 == 0) {
                 System.out.println(l);
@@ -264,18 +264,53 @@ public class LogicalOperations {
                 System.out.print("CozaWoza");
             } else if (l % 3 == 0 && l % 5 == 0) {
                 System.out.print("CozaLoza");
-            }  else if (l % 7 == 0) {
+            } else if (l % 7 == 0) {
                 System.out.print("Woza");
             } else if (l % 5 == 0) {
                 System.out.print("Loza");
             } else if (l % 3 == 0) {
                 System.out.print("Coza");
-            }else{
+            } else {
                 System.out.print(l);
             }
             l++;
         }
     }
+
+    //   tema array - lab5
+
+    public int[] getArrayToHundred() {
+        int array[] = new int[100];
+        for (int i = 0; i < 100; i++) {
+            array[i] = i + 1;
+
+        }  return array;
+    }
+    public void printArray(int[] array){
+        for( int i = 0; i < array.length; i++){
+            System.out.println(array[i]);
+        }
+    }
+
+        public int[] numerePare(){
+        int j = 0;
+        int nrPar[] = new int[100];
+        for(int i = 0; i < 100; i++){
+                if( i % 2 == 0){
+                    nrPar[j] = i;
+                    j++;
+                }
+            } return nrPar ;
+        }
+
+        public void printPar(int[] par){
+            for(int i = 0; i < par.length;i++){
+                System.out.println(par[i]);
+            }
+        }
+
+
+
 
 
 }
