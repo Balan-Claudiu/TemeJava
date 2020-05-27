@@ -63,7 +63,11 @@ public class Animal {
     public void run(){
         System.out.println("Runing...");
     }
-    public void speel(){
+    public void sleep(){
         System.out.println("zzzZZZzzz");
     }
+    public void speak(){System.out.println("sunete");
+    }
+
+
 }
