@@ -1,5 +1,7 @@
 package Java.com;
 
+import java.util.List;
+
 public class LogicalOperations {
 
     public int getHigherNumber(int first, int second) {
@@ -292,23 +294,55 @@ public class LogicalOperations {
         }
     }
 
-        public int[] numerePare(){
-        int j = 0;
-        int nrPar[] = new int[100];
-        for(int i = 0; i < 100; i++){
-                if( i % 2 == 0){
-                    nrPar[j] = i;
-                    j++;
-                }
-            } return nrPar ;
-        }
+    // tema Liste
 
-        public void printPar(int[] par){
-            for(int i = 0; i < par.length;i++){
-                System.out.println(par[i]);
+
+    public void printList(List<Integer> list){
+        for(int i = 0; i < list.size(); i++){
+            System.out.println(list.get(i));
+        }
+    }
+    public void addToList(List<Integer> myList, int x){
+        myList.add(x);
+    }
+
+    public void listaDeLa(List<Integer> myList, int y){
+
+        for(int i = y; i < myList.size(); i++){
+            System.out.println(myList.get(i));
+        }
+    }
+
+    public void invers(List<Integer> myList){
+        for( int i = myList.size() -1 ; i >= 0 ; i--){
+            System.out.println(myList.get(i));
+        }
+    }
+
+    public void adaugLaLista2(List<String> Lista2,int a, String b){
+        Lista2.add(a, b );
+    }
+
+    public void mutaElementul(List<String> Lista2, String c){
+        Lista2.add(0, c);
+    }
+
+    public void pozitiaSiValoarea(List<String> Lista2){
+        System.out.println("Pe pozitia 0 valoarea este: " + Lista2.get(0));
+        System.out.println("Pe pozitia 1 valoarea este: " + Lista2.get(1));
+        System.out.println("Pe pozitia 2 valoarea este: " + Lista2.get(2));
+        System.out.println("Pe pozitia 3 valoarea este: " + Lista2.get(3));
+        System.out.println("Pe pozitia 4 valoarea este: " + Lista2.get(4));
+    }
+
+    public int celMaiMareNumar(List<Integer> myList){
+        int max = 0;
+        for(int i = 0; i < myList.size(); i++){
+            if(myList.get(i) > max){
+                max = myList.get(i);
             }
-        }
-
+        } return max;
+    }
 
 
 

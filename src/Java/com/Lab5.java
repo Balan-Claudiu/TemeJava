@@ -10,8 +10,10 @@ public class Lab5 {
   //      int[] myArray = op.getArrayToHundred();
   //      op.printArray(myArray);
 
-        int[] par = op.numerePare();
-        op.printPar(par);
+        int[] par= new int[100];
+        for (int i = 0; i < 100; i++){
+
+        }
 
 
 

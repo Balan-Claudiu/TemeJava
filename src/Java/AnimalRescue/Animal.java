@@ -1,6 +1,6 @@
 package Java.AnimalRescue;
 
-public class Animal {
+public abstract class Animal {
     private String name;
     private int age ;
     private int hunger ;
@@ -8,10 +8,10 @@ public class Animal {
     private String food ;
     private String play ;
 
+
     public String getName() {
         return name;
     }
-
     public void setName(String name) {
         this.name = name;
     }
@@ -19,7 +19,6 @@ public class Animal {
     public int getAge() {
         return age;
     }
-
     public void setAge(int age) {
         this.age = age;
     }
@@ -27,7 +26,6 @@ public class Animal {
     public int getHunger() {
         return hunger;
     }
-
     public void setHunger(int hunger) {
         this.hunger = hunger;
     }
@@ -35,7 +33,6 @@ public class Animal {
     public int getMood() {
         return mood;
     }
-
     public void setMood(int mood) {
         this.mood = mood;
     }
@@ -51,23 +48,15 @@ public class Animal {
     public String getPlay() {
         return play;
     }
-
     public void setPlay(String play) {
         this.play = play;
     }
 
-
-    public void eat(){
-        System.out.println("Eating...");
-    }
-    public void run(){
-        System.out.println("Runing...");
-    }
-    public void sleep(){
-        System.out.println("zzzZZZzzz");
-    }
-    public void speak(){System.out.println("sunete");
+    public abstract void eat();
+    public abstract void run();
+    public abstract void sleep();
+    public abstract void speak();
     }
 
 
-}
+
