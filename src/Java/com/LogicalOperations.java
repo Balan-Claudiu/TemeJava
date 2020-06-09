@@ -294,6 +294,49 @@ public class LogicalOperations {
         }
     }
 
+    public int[] numerelePare(int[] par){
+        for(int i = 0; i < par.length; i++){
+            par[i] = i ;
+            if(i % 2 == 0){
+                System.out.println(par[i]);
+            }
+        } return par;
+    }
+
+        public float mediaNumerelor(int[] media){
+            float sum = 0;
+            for( int i = 0; i < media.length; i++){
+                sum = sum + media[i];
+            } return sum / media.length;
+    }
+
+        public String ex5(String[] masini, String x){
+            for(int i = 0; i < masini.length; i++) {
+                if (masini[i].equals(x)) {
+                    return "True";
+                }
+            } return "False";
+        }
+
+        public int ex6(int[] numbers, int y){
+            for(int i = 0; i < numbers.length; i++){
+                if(numbers[i] == y){
+                    return i;
+                }
+            } return 0;
+        }
+
+        public void grila(char[] linii){
+            for(int i = 0 ; i <= 10; i++){
+                System.out.println(linii);
+            }
+        }
+
+
+
+
+
+
     // tema Liste
 
 
